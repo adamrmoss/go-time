@@ -16,10 +16,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="GoTime.ino" />
+    <None Include="README.md" />
+    <None Include="LICENSE" />
+    <None Include=".gitignore" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="__vm\.GoTime.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="__vm\.go-time.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LiquidCrystal_I2C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LiquidCrystal_I2C.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
